@@ -33,10 +33,10 @@ class Accordeon extends Component {
                     details.style.display = "block";
                 }
                 tmp['b' + i] = details.style.display;
-                console.log('Setted: ' + details.style.display);
+                console.log("Setted: " + details.style.display);
                 // Устанавливаем новое значение в state
                 this.setState(tmp);
-                console.log(" Current state: " + this.state );
+                console.log("Current state: " + this.state );
                 console.log("RESULT = ", details.style.display);
             });
         }
