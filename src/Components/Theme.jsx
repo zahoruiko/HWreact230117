@@ -14,7 +14,7 @@ class Theme extends Component {
     return (
       <>
         <h1>Actual theme is {this.state.theme}</h1>
-        <button onClick={this.handleButton}>Click it!</button>
+        <button onClick={this.handleButton}>Change theme!</button>
       </>
     )
   }
